@@ -1,3 +1,52 @@
+## About This Project
+
+**ALPHA LEGION 386TEST** is a small, AI-developed MS-DOS diagnostic and stress-testing utility designed to test the stability and functionality of vintage Intel and AMD 80386 processors.
+The project started as a personal experiment after repairing a damaged CPU connection on a 386DX-40 motherboard. The damaged connection was repaired by carefully resoldering it under a microscope.
+Although the computer appeared to work correctly, I wanted to verify that the processor could reliably execute its instructions without errors, particularly under prolonged stress.
+Unable to find a suitable diagnostic program that provided the level of testing I wanted, I decided to develop one with the assistance of ChatGPT.
+
+The program has been developed entirely with AI assistance, while testing and validation are performed on real vintage hardware.
+
+### Test System
+
+| Component | Specification |
+|---|---|
+| Motherboard | DataExpert OPTi-495SLC 3406 Rev. 1.2 |
+| Processor | 80386DX-40, 40 MHz |
+| Cache | 256 KB |
+| RAM | 8 MB |
+| Operating System | MS-DOS 6.2 |
+| Diagnostic Software | ALPHA LEGION 386TEST |
+| Development | AI-assisted (OpenAI ChatGPT) |
+
+### Project Goals
+
+- Verify correct execution of 80386 instructions.
+- Detect arithmetic, logical and register-related errors.
+- Stress-test processors through continuous instruction execution.
+- Identify intermittent faults that may not appear during normal operation.
+- Provide a lightweight diagnostic tool for vintage computer enthusiasts.
+- Maintain compatibility with original 80386 hardware and MS-DOS.
+
+### Development and Testing
+
+Each version is tested on the original 386DX-40 system.
+Earlier versions have successfully completed millions of diagnostic cycles without reporting errors.
+The project is continuously evolving, with additional instruction tests, more demanding workloads and improved error detection being introduced in subsequent releases.
+
+### Important Notes
+
+This software is experimental and provided without warranty.
+Although the program verifies the results of selected CPU instructions, passing all tests does not guarantee that a processor or motherboard is completely fault-free.
+The software has been developed with AI assistance and is being evaluated on real vintage hardware. Bugs or incorrect test implementations may still exist.
+Feedback, bug reports and test results from other 386 systems are welcome.
+
+---
+
+*The Emperor protects. The Machine Spirit endures.* ⚙️
+
+Latest Release
+
 # ALPHA LEGION 386TEST v0.6 — Maximum Torture Edition
 
 **Release:** v0.6  
